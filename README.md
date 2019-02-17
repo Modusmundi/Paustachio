@@ -8,7 +8,7 @@ Paustachio seeks to make querying LDAP datasources, and deriving useful informat
 
 ## Dependencies
 
-Dapper is written in Python and relies on the following libraries:
+Paustachio is written in Python and relies on the following libraries:
 
   * ldap3
   * json
