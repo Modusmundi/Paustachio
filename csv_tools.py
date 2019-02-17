@@ -31,9 +31,7 @@ class csv_write:
             with open(file=results_file, mode='x', newline='') as csvfile:
                 new_resultswriter = csv.writer(csvfile, dialect='excel', quotechar='"', doublequote=True,
                                                quoting=csv.QUOTE_MINIMAL)
-                new_resultswriter.writerow(
-                    ['Name'] + ['Group'] + ['Time of Search'] + ['Search DN'] + ['Filter Used'] + ['Search Scope'] + [
-                        'Record Count'])
+                new_resultswriter.writerow(['Name', 'Group', 'Time of Search', 'Search DN', 'Filter Used', 'Search Scope', 'Record Count'])
         csvfile.close()
 
         # Now we start writing each of the list-dict results to the CSV.
