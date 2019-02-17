@@ -1,0 +1,21 @@
+[
+	{ "name": "A Searched Named Example",
+	  "group": "Group 1",
+	  "search": "ou=people,o=example",
+	  "filter": "(objectclass=*)",
+	  "scope": "one"
+	},
+  	{ "name": "A Search Named Example 2 - Electric Boogaloo",
+	  "group": "group 1",
+	  "search": "ou=people,o=example",
+	  "filter": "(st=MI)",
+	  "scope": "one"
+	},
+    {
+      "name": "A Search Named Example 3 - The Search Strikes Back",
+	  "group": "group 2",
+	  "search": "ou=people,o=example",
+	  "filter": "(&(l=Rockford)(st=NM))",
+	  "scope": "one"
+	}
+]

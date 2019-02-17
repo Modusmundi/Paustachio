@@ -1,0 +1,6 @@
+[
+	{ "name": "wat",
+	  "group": "group 1",
+	  "search": "ou=people,dc=example,dc=com"
+	}
+]

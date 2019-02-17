@@ -1,0 +1,4 @@
+Name,Group,Time of Search,Search DN,Filter Used,Search Scope,Record Count
+A Searched Named Example,Group 1,Sun Oct 21 21:35:12 2018,"ou=people,o=example",(objectclass=*),sub,2002
+A Search Named Example 2 - Electric Boogaloo,group 1,Sun Oct 21 21:35:12 2018,"ou=people,o=example",(st=MI),sub,51
+A Search Named Example 3 - The Search Strikes Back,group 2,Sun Oct 21 21:35:12 2018,"ou=people,o=example",(&(l=Rockford)(st=NM)),sub,1

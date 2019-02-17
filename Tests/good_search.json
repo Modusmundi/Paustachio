@@ -1,0 +1,8 @@
+[
+	{ "name": "A Searched Named Example",
+	  "group": "Group 1",
+	  "search": "ou=people,o=example",
+	  "filter": "(objectclass=*)",
+	  "scope": "one"
+	}
+]

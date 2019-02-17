@@ -1,0 +1,12 @@
+
+__pycache__/
+
+venv/
+
+\.idea/
+
+Tests/htmlcov/
+
+Tests/\.coverage
+
+connectFile\.json

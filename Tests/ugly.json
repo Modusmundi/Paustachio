@@ -1,0 +1,28 @@
+[
+	{ "name": "wat",
+	  "group": "group 1",
+	  "search": "ou=people,dc=example,dc=com",
+	  "filter": "(objectclass=*)",
+	  "scope": "one"
+	},
+  	{ "name": "wat 2",
+	  "group": "group 1",
+	  "search": "ou=people,dc=example,dc=com",
+	  "filter": "(st=MI)",
+	  "scope": "one"
+	}
+]
+[
+	{ "name": "wat",
+	  "group": "group 1",
+	  "search": "ou=people,dc=example,dc=com",
+	  "filter": "(objectclass=*)",
+	  "scope": "one"
+	},
+  	{ "name": "wat 2",
+	  "group": "group 1",
+	  "search": "ou=people,dc=example,dc=com",
+	  "filter": "(st=MI)",
+	  "scope": "one"
+	}
+]
